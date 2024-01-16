@@ -1,6 +1,9 @@
 name: Ejercicio1
 
-on: push
+on:
+  push:
+    branches:
+      - 'main'
 
 jobs:
  trabajo1:
