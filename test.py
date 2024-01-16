@@ -18,4 +18,4 @@ def test_setbalance():
 def test_incrementbalamce():
     obj = Wallet(0)
     obj.increment_balance(50)
-    assert obj.get_balance() == 5
+    assert obj.get_balance() == 50
