@@ -1,0 +1,15 @@
+name: prueba de codigo
+
+on: pull_request
+
+jobs:
+  probar-seguridad:
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+
+    steps:
+      - name: accion
+        uses: advanced-security/python-lint-code-scanning-action@v1
+        with:
+          linter: pylint
