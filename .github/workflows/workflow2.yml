@@ -1,7 +1,6 @@
 name: prueba de codigo
 
-on:
-  pull request:
+on: pull request
 
 jobs:
   probar-seguridad:
